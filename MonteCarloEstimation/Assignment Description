@@ -1,0 +1,34 @@
+GRADE RECIEVED : 100/100
+Due: 9/28 23:59 CT
+Submit to Moodle:
+
+    lastname_firstname_pi.py — Python code
+
+    lastname_firstname_report.pdf — short report
+
+Goals:
+
+    Estimate π using Monte Carlo sampling in Python with NumPy.
+    Study how accuracy improves as the number of trials increases.
+    Show empirically that the sampling distribution of the estimator is approximately Normal (Central Limit Theorem).
+
+Tasks:
+
+    Monte Carlo π estimator
+
+    Generate random points (x,y) in the unit square. Count how many fall inside the unit circle.
+    Implement this as a function estimate_pi(n).
+
+    Convergence with n
+
+    Compute π with different values of n
+
+    Plot estimated π versus n (x-axis log scale)
+
+    Sampling distribution at fixed n
+
+    Choose at least 3 values of n (e.g., 10^3, 10^4, 10^5).
+
+    For each, repeat the experiment R = 500 times. According to the Central Limit Theorem, how should your estimated π be distributed?
+
+    Plot the histogram of estimates. Show it resembles a normal distribution.
